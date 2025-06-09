@@ -5,3 +5,23 @@
   font-family: 'Times New Roman', Times, serif;
   
 }
+
+
+.homecard::before {
+  position: absolute;
+  left: -20%;
+  width: 100%;
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.homecard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(211, 62, 7, 0.5);
+}
+
+.homecard:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
