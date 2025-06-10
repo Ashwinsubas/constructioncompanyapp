@@ -5,7 +5,9 @@ import Dashboard from './pages/Dashboard'
 import Auth from './pages/Login'
 import Footer from './components/Footer'
 import Home from './pages/Home'
-import Works from './pages/works'
+import Works from './pages/Works'
+import User from './pages/User'
+import ViewMore from './pages/ViewMore'
 
 
 
@@ -20,6 +22,8 @@ function App() {
         <Route path='/works' element={<Works/>}/>
         <Route path='/login' element={<Auth/>}/>
         <Route path='/register' element={<Auth/>}/>
+        <Route path='/user' element={<User/>}/>
+        <Route path='viewmore' element={<ViewMore/>}/>
       </Routes>
       <Footer/>
     </>
