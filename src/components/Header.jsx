@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 const Header = (insideDashboard) => {
   return (
     <>
-      <Navbar className="bg-body-tertiary shadow position-sticky top-0 ">
+      <Navbar style={{zIndex:5}} className="bg-body-tertiary shadow position-sticky top-0 ">
         <Container className="d-flex justify-content-between">
           <div>
             <Navbar.Brand href="#home">

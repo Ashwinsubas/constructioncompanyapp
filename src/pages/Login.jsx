@@ -6,7 +6,7 @@ const Login = () => {
   return (
     <>
     <div
-      style={{ minHeight: "50vh" }}
+      style={{ minHeight: "100vh" }}
       className="d-flex justify-content-center align-items-center"
     >
       <div className="container card p-4 my-3">
